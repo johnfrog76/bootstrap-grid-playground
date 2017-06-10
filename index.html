@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Grid Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="">
+    <div class="container-fluid hero-section">
+        <div class="row ">
+            <div class="col-med-12">
+                <span class="hero-image">hero - responsive grid demo</span>
+            </div>
+        </div>
+    </div>
+    <div class="container container-hook">
+        <div class="row mycol twelve">
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+            <div class="col-sm-1"><span>column</span></div>
+        </div>
+        <div class="row mycol four">
+            <div class="col-sm-3"><span>column</span></div>
+            <div class="col-sm-3"><span>column</span></div>
+            <div class="col-sm-3"><span>column</span></div>
+            <div class="col-sm-3"><span>column</span></div>
+        </div>
+        <div class="row mycol sidebar">
+            <div class="col-sm-9"><span>column</span></div>
+            <div class="col-sm-3"><span>column</span></div>
+        </div>
+        <div class="row mycol six">
+            <div class="col-sm-2"><span>column</span></div>
+            <div class="col-sm-2"><span>column</span></div>
+            <div class="col-sm-2"><span>column</span></div>
+            <div class="col-sm-2"><span>column</span></div>
+            <div class="col-sm-2"><span>column</span></div>
+            <div class="col-sm-2"><span>column</span></div>
+        </div>
+        <div class="row mycol three">
+            <div class="col-sm-4"><span>column</span></div>
+            <div class="col-sm-4"><span>column</span></div>
+            <div class="col-sm-4"><span>column</span></div>
+        </div>
+        <div class="row mycol two">
+            <div class="col-sm-6"><span>column</span></div>
+            <div class="col-sm-6"><span>column</span></div>
+        </div>
+        <div class="row mycol one">
+            <div class="col-sm-12"><span>column</span></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <select class="form-control columns">
+                    <option value="1">1 column</option>
+                    <option value="2">2 columns</option>
+                    <option value="3">3 columns</option>
+                    <option value="4">4 columns</option>
+                    <option value="6" selected>6 columns</option>
+                    <option value="12">12 columns</option>
+                    <option value="sidebar">Sidebar layout</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control layout">
+                    <option value="fixed" selected>Resp. Container</option>
+                    <option value="fluid">Fluid Container</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control copy">
+                    <option value="lipsum" >Lorem ipsum</option>
+                    <option value="copy" selected>No copy</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control select-hero">
+                    <option value="hero">Hero image</option>
+                    <option value="no-hero" selected>No image</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control select-theme">
+                    <option value="theme-dark">Dark theme</option>
+                    <option value="theme-light" selected>Light theme</option>
+                    <!-- <option value="theme-material">Material</option>
+                    <option value="theme-uifabric">UI Fabric</option> -->
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

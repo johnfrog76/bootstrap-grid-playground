@@ -1,0 +1,95 @@
+
+body.dark-theme {
+    background-color: #263238;
+}
+
+body.dark-theme .row > div > span {
+    background-color: #455A64;
+    color: #fff;
+}
+
+body.dark-theme .form-control {
+    background-color: transparent;
+    color: #fff;
+}
+
+body.dark-theme .form-control option {
+    color: #333;
+}
+
+
+body.dark-theme .row span.hero-image {
+    background-color: #37474f;
+    color: #fff;
+}
+
+
+.row.lipsum > div > span {
+    text-align: left;
+    text-indent: 0 !important;
+    overflow: hidden;
+}
+
+.row > div > span {
+    background-color: #e8bfe8;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.row span.hero-image {
+    padding-top: 13vw;
+    min-height: 27vw;
+    background-color: #ddd;
+}
+
+
+@media (max-width: 768px) {
+    .row span.hero-image {
+        min-height: 135px;
+    }
+}
+
+.container-fluid:first-of-type {
+    background-color: transparent;
+}
+
+.row {
+    margin-bottom: 2.7rem;
+}
+
+select {
+    margin-bottom: 1rem;
+}
+
+.mycol span {
+    height: 4px;
+    text-indent: -1000em;
+    transition: height 0.7s;
+    transition-timing-function: ease-out;
+}
+
+.mycol.transform span {
+    height: 42vh;
+}
+
+.mycol {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mycol span {
+        height: auto;
+        text-indent: 0;
+    }
+    .mycol.transform span {
+        height: auto;
+    }
+}
+
+.container-fluid.hero .row span.hero-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -1000em;
+    background-position: 0 -16vw;;
+}
